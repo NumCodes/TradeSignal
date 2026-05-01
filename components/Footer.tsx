@@ -25,7 +25,7 @@ export function Footer() {
                 <MessageCircle size={20} />
               </a>
               <a
-                href="mailto:support@montero-fx.com"
+                href="mailto:iamnumcodes@gmail.com"
                 className="text-foreground/60 hover:text-accent transition-colors"
                 aria-label="Email"
               >
