@@ -1,9 +1,6 @@
 'use client';
 
 import React from "react"
-
-'use client';
-
 import Link from 'next/link';
 import { DashboardNav } from '@/components/DashboardNav';
 import { useEffect, useState } from 'react';
