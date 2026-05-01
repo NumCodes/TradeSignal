@@ -11,7 +11,7 @@ const geist = Geist({ subsets: ["latin"] });
 const geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Montero FX - Professional Forex & Indices Trading Signals',
+  title: 'Trade Signal - Professional Forex & Indices Trading Signals',
   description: 'Expert trading signals, mentorship, and education for forex and synthetic indices traders. Join our professional community.',
   generator: 'v0.app',
   icons: {
