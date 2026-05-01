@@ -120,7 +120,7 @@ export default function LandingPage() {
       {/* Features Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Why Choose Montero FX?</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Why Choose Trade Signal?</h2>
           <p className="text-foreground/70 text-lg max-w-2xl mx-auto">
             Everything you need to trade successfully with confidence and consistency.
           </p>
@@ -157,7 +157,7 @@ export default function LandingPage() {
             href="/auth/register"
             className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-lg bg-accent text-background font-semibold hover:bg-accent/90 transition-colors"
           >
-            Join Montero FX Now <ArrowRight size={18} />
+            Join Trade Signal Now <ArrowRight size={18} />
           </Link>
         </GlassCard>
       </section>
