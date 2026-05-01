@@ -20,7 +20,7 @@ export function FloatingButtons() {
   };
 
   const openWhatsApp = () => {
-    const message = encodeURIComponent('Hi, I\'d like to learn more about Montero FX trading signals.');
+    const message = encodeURIComponent('Hi, I\'d like to learn more about the purchase of the trading signals project.');
     window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
   };
 
