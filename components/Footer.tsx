@@ -12,7 +12,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="flex flex-col gap-3">
-            <h3 className="font-bold text-lg text-accent">Montero FX</h3>
+            <h3 className="font-bold text-lg text-accent">Trade Signal</h3>
             <p className="text-sm text-foreground/60">
               Professional forex and synthetic indices trading signals for serious traders.
             </p>
@@ -81,10 +81,10 @@ export function Footer() {
         <div className="border-t border-border/40 pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-sm text-foreground/60 text-center sm:text-left">
-              © {currentYear} Montero FX. All rights reserved.
+              © {currentYear} Trade Signal. All rights reserved.
             </p>
             <div className="flex items-center gap-2 text-sm text-foreground/60">
-              Built with <Heart size={16} className="text-accent" /> for traders
+              Built with <Heart size={16} className="text-accent" /> for traders by Num Codes
             </div>
           </div>
         </div>

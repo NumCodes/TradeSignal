@@ -20,9 +20,9 @@ export function Header() {
       <div className="flex h-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-bold text-xl text-accent">
           <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center text-background font-bold">
-            M
+            T
           </div>
-          <span className="hidden sm:inline">Montero FX</span>
+          <span className="hidden sm:inline">Trade Signal</span>
         </Link>
 
         {/* Desktop Navigation */}
