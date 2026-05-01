@@ -5,7 +5,7 @@ import { AnimatedProgressBars } from '@/components/AnimatedProgressBars';
 import { SlidingCarousel } from '@/components/SlidingCarousel';
 
 export const metadata: Metadata = {
-  title: 'About Montero FX | Trading Platform',
+  title: 'About Trade Signal | Trading Platform',
   description: 'Learn about our trading philosophy, risk management approach, and 8+ years of experience in forex and indices trading.',
 };
 
@@ -27,7 +27,7 @@ export default function AboutPage() {
       id: 3,
       title: 'Global Community',
       icon: <Users size={32} />,
-      description: 'Join 2,800+ traders across 120+ countries who rely on Montero FX daily. Our community provides peer support, shared strategies, and collaborative learning opportunities in a professional trading environment.',
+      description: 'Join 2,800+ traders across 120+ countries who rely on Trade Signal daily. Our community provides peer support, shared strategies, and collaborative learning opportunities in a professional trading environment.',
     },
   ];
 
@@ -111,7 +111,7 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center space-y-6 mb-16">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-balance">
-            About <span className="text-accent">Montero FX</span>
+            About <span className="text-accent">Trade Signal</span>
           </h1>
           <p className="text-xl text-foreground/70 max-w-2xl mx-auto">
             Empowering traders worldwide with professional signals, education, and mentorship since 2016.
@@ -123,7 +123,7 @@ export default function AboutPage() {
           <div className="space-y-4">
             <h2 className="text-3xl font-bold mb-6">Our Trading Philosophy</h2>
             <p className="text-foreground/70 leading-relaxed">
-              At Montero FX, we believe successful trading comes from combining solid technical analysis with rigorous risk management. We've spent over 8 years perfecting our signal methodology to provide traders with reliable entry and exit points.
+              At Trade Signal, we believe successful trading comes from combining solid technical analysis with rigorous risk management. We've spent over 8 years perfecting our signal methodology to provide traders with reliable entry and exit points.
             </p>
             <p className="text-foreground/70 leading-relaxed">
               Our approach focuses on quality over quantity. We provide fewer, higher-confidence signals rather than flooding traders with options. This conservative approach has resulted in an 87% accuracy rate over the last 6 months.
@@ -147,10 +147,10 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* About Montero FX Carousel */}
+      {/* About Trade Signal Carousel */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">About Montero FX</h2>
+          <h2 className="text-3xl font-bold mb-4">About Trade Signal</h2>
           <p className="text-foreground/70 text-lg max-w-2xl mx-auto">
             Discover what makes us the trusted choice for professional traders globally
           </p>
@@ -180,7 +180,7 @@ export default function AboutPage() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">What Do You Need To Know</h2>
           <p className="text-foreground/70 text-lg max-w-2xl mx-auto">
-            Account terms, requirements, and guidelines for trading with Montero FX
+            Account terms, requirements, and guidelines for trading with Trade Signal
           </p>
         </div>
         <SlidingCarousel items={accountRequirements} autoPlayInterval={5000} showControls={true} />
@@ -214,7 +214,7 @@ export default function AboutPage() {
         <GlassCard gradient className="text-center py-12">
           <h2 className="text-3xl font-bold mb-4">Start Your Trading Journey Today</h2>
           <p className="text-foreground/70 text-lg mb-8">
-            Join thousands of traders who trust Montero FX for professional signals and education.
+            Join thousands of traders who trust Trade Signal for professional signals and education.
           </p>
           <a
             href="/auth/register"
